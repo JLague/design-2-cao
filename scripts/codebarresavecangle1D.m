@@ -9,10 +9,10 @@ x_i=input('x_i: ');
 y_i=input('y_i: ');
 alpha_c=input("Angle du code-barres: ");
 if alpha_c > 10
-    error("angle de code-barres invalide");
+    error("Angle de code-barres invalide");
 end
 if alpha_c < -10
-    error("angle de code-barres invalide");
+    error("Angle de code-barres invalide");
 end
 START=[ 1 0 1];
 END=[1 0 1];
@@ -104,15 +104,3 @@ reflexion=BRDF*scan;
 sommation(:,i)=mean(mean(reflexion(:)));
 disp("Itération "+{i});
 end
-
-%petit test pour montrer le code-barres
-%sommationinv=zeros(83,113);
-%for i=1:113
- %   if sommation(:,i) == 0
- %       sommationinv(:,i)=1;
- %   end
-  %  if sommation(:,i) ~= 0
-    %    sommationinv(:,i)=0;
-   % end
-%end
-%imshow(sommationinv)
