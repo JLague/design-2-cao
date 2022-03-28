@@ -1,0 +1,17 @@
+%code=transpose(code);
+%code=code(1100:1450);
+%for i=1:length(code)
+%    j = code(1,i);
+%    if j == 0
+%        code(1, i) = 5;
+%    else
+%    code(1,i) = 0;
+%    end
+%end
+for i=1:(77)
+    code=[code;code(1,:)];
+end
+saveas(imshow(code), "code.png")
+I = imread("code.png");
+msg = readBarcode(I);
+disp(msg)
