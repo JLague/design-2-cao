@@ -35,7 +35,7 @@ for j = 7 : 12
     CDROITE = [CDROITE;DROITE(val,:)];
 end 
 
-CGAUCHE=transpose(CGAUCHE);
+CGAUCHE=transpose(CGAUCHE); 
 CGAUCHE=reshape(CGAUCHE,1,42);
 CDROITE=transpose(CDROITE);
 CDROITE=reshape(CDROITE,1,42);
