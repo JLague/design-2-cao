@@ -1,0 +1,10 @@
+--> Implémenter les différents paramètres initiaux
+--> Problème des code-barres à 13 chiffres
+--> Implémentation de la fonction de transfert des galvos modifiable
+--> Implémentation du retour d'information à la lecture d'Un code-barres (aller le chercher dans la liste)
+--> Implémenter le bruit si l'utilisateur décide qu'il en veut
+--> Créer un fichier importable par l'utilisateur pour avoir une simulation avec des paramètres idéaux
+--> Afficher au choix de l'utilisateur les différents scope placés dans simulink
+-->
+
+	
