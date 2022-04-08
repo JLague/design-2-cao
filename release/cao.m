@@ -594,7 +594,7 @@ classdef cao < matlab.apps.AppBase
             % Create Image_3
             app.Image_3 = uiimage(app.ParamtrescodebarresTab);
             app.Image_3.Position = [451 20 233 388];
-            app.Image_3.ImageSource = 'def_angles.png';
+            app.Image_3.ImageSource = 'data/def_angles.png';
 
             % Create ParamtresPanel
             app.ParamtresPanel = uipanel(app.ParamtrescodebarresTab);
